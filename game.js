@@ -12,6 +12,7 @@ setInterval(main, 1000 / SNAKE_SPEED);
 const update = () => {
   console.log('Updating');
   // TODO 1.3: Update the snake here
+  SnakeUpdate();
 };
 
 const draw = () => {
